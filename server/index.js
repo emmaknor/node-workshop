@@ -66,5 +66,8 @@ app.listen(PORT, () => {
   console.log(`Express listenting on port ${PORT}`);
 });
 
-/* curl -d '{"name":"Truman Purnell"}' -H "Content-Type: application/json" -X PATCH http://localhost:3000/author/7
+/*
+Example curl commands:
+
+curl -d '{"name":"Truman Purnell"}' -H "Content-Type: application/json" -X PATCH http://localhost:3000/author/7
 curl -X DELETE http://localhost:3000/book?bookTitle=Gone%20Girl */
