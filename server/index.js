@@ -44,7 +44,6 @@ app.patch('/author/:id', (req, res) => {
       res.status(400).send(err);
     } else {
       res.status(201).send('name successfully updated!');
-      // console.log(results)
     }
   })
 });
